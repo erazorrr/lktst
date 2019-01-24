@@ -7,19 +7,25 @@
   "scripts": {
     "build": "$(npm bin)/webpack",
     "lint": "$(npm bin)/standard",
-    "start": "node index.js"
+    "start": "node index.js",
+    "watch": "$(npm bin)/webpack --watch"
   },
   "dependencies": {
     "@babel/core": "^7.2.2",
     "@babel/preset-env": "^7.3.1",
     "babel-loader": "^8.0.5",
     "bluebird": "^3.5.3",
+    "css-loader": "^2.1.0",
     "express": "^4.16.4",
+    "node-sass": "^4.11.0",
     "redis": "^2.8.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
     "vue": "^2.5.22",
     "vue-loader": "^15.5.1",
     "vue-router": "^3.0.2",
     "vue-template-compiler": "^2.5.22",
+    "vuex": "^3.1.0",
     "webpack": "^4.29.0",
     "webpack-cli": "^3.2.1"
   },
